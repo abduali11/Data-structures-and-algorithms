@@ -8,7 +8,7 @@
 
 "The output from your program, when called with the code in the Test column, should be exactly as shown in the Result column:"
 
-test = input("laita numero")
+test = input("")
 dictionary = {}
 
 for i in range(int(test)):
