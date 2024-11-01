@@ -5,12 +5,5 @@
 
 "The program should print the new string."
 
-word1 = "wikipedia"
-word2 = "assume"
-
-print("".join(sorted(word1)))
-print("".join(sorted(word2)))
-
-"Sen voi tehdä myös tällä tavalla"
 input_string = input()
 print("".join(sorted(input_string)))
