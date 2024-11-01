@@ -5,13 +5,12 @@
 "For example, if s = 'hello', your program should print:"
 
 "Number of vowels: 2"
-
-s = input("kirjoita sana ")
+s = input().lower()
 
 vowels = "aeiou"
 maara = 0
 
-for char in s:
-    if char in vowels:
+for i in s:
+    if i in vowels:
         maara +=1
-print(f"vookaleja on {maara} kappaletta")
+print(f"Number of vowels: {maara}")
